@@ -1,0 +1,5 @@
+html {
+  transform: translateZ(0); /* enable hardware acceleration */
+  scroll-behavior: smooth; /* enable smooth scrolling */
+  overscroll-behavior: none; /* disable overscroll behavior */
+}
