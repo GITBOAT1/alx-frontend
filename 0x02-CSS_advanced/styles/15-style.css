@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
@@ -179,9 +183,7 @@ template {
   display: none
 }
 
-* {
-  box-sizing: border-box;
-}
+
 /*# sourceMappingURL=normalize.min.css.map */
 html {
   scroll-behavior: smooth; /* enable smooth scrolling */
