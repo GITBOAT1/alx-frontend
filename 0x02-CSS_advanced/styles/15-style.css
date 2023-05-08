@@ -1,4 +1,5 @@
-/* Universal box sizing rule */
+@import url('style/normalize.css');
+
 * {
   box-sizing: border-box;
 }
