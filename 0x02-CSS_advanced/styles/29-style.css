@@ -327,17 +327,6 @@ nav .nav-item {
   margin: var(--nav-item-margin);
 }
 
-/* For the nav-link class in nav class */
-nav .nav-link {
-  display: block;
-  padding: var(--root-element)/2 var(--root-element);
-}
-
-/* Hover effect for nav-link class in nav class */
-nav .nav-link:hover {
-  color: var(--nav-item-link-hover);
-}
-
 nav a::before {
   content: "";
   position: absolute;
@@ -352,6 +341,18 @@ nav .nav-item:hover a::before {
   background-color: var(--color-primary);
   width: 100%;
 }
+/* For the nav-link class in nav class */
+nav .nav-link {
+  display: block;
+  padding: var(--root-element)/2 var(--root-element);
+}
+
+/* Hover effect for nav-link class in nav class */
+nav .nav-link:hover {
+  color: var(--nav-item-link-hover);
+}
+
+
 
 .section {
   padding: var(--section-padding);
