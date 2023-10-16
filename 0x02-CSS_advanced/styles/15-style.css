@@ -2,7 +2,7 @@
 /* Universal box sizing rule */
 * {
   box-sizing: border-box;
-}
+
 
 html {
   line-height: 1.15;
@@ -328,4 +328,5 @@ h1,h2,h3,h4,h5,h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
   font-family: var(--font-family-title);
+}
 }
